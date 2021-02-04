@@ -1,9 +1,9 @@
 {
   "name": "samyasm/blogger",
-  "type": "library",
+  "type": "symfony-bundle",
   "description": "Blog integration for Symfony 4 project",
   "keywords": ["blog","symfony","symfony-4","samyasm"],
-  "homepage": "https://github.com/samyAsm/samy-blog",
+  "homepage": "https://github.com/samyAsm/blogger",
   "license": "GPL-3.0",
   "authors": [
     {
@@ -18,12 +18,7 @@
     "ext-json": "*"
   },
   "require-dev": {
-    "symfony/routing": "4.4",
-    "symfony/http-foundation": "^4.4",
-    "symfony/http-kernel": "^4.4",
-    "twig/twig": "^3.2",
-    "twig/extra-bundle": "^3.2",
-    "symfony/dependency-injection": "^4.4"
+
   },
   "autoload": {
     "psr-4": {
@@ -35,9 +30,8 @@
       "SamyAsm\\SamyAsmBlog\\": "Project/"
     }
   },
-  "prefer-stable": true,
   "extra": {
-    "aliases": ["samy-blog", "samyblog"]
+    "aliases": ["samyasm-blogger", "samyasm-blog"]
   },
   "minimum-stability": "dev"
 }
