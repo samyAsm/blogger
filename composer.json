@@ -1,6 +1,6 @@
 {
   "name": "samyasm/blogger",
-  "type": "symfony-bundle",
+  "type": "library",
   "description": "Blog integration for Symfony 4 project",
   "keywords": ["blog","symfony","symfony-4","samyasm"],
   "homepage": "https://github.com/samyAsm/blogger",
