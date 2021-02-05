@@ -18,7 +18,12 @@
     "ext-json": "*"
   },
   "require-dev": {
-
+    "symfony/routing": "4.4",
+    "symfony/http-foundation": "^4.4",
+    "symfony/http-kernel": "^4.4",
+    "twig/twig": "^3.2",
+    "twig/extra-bundle": "^3.2",
+    "symfony/dependency-injection": "^4.4"
   },
   "autoload": {
     "psr-4": {

@@ -52,3 +52,5 @@
 /.web-server-pid
 
 .idea/
+vendor/
+composer.lock

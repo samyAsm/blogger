@@ -1,0 +1,8 @@
+serivces:
+    _instanceof:
+        SamyAsm\SamyBlogBundle\Service\SamyBlogInterface:
+            tags:
+                - !php/const SamyAsm\SamyBlogBundle\Service\SamyBlogInterface::TAG
+
+    SamyAsm\SamyAsmBlog\Controller\SamyBlogController:
+        autoconfigure: true
