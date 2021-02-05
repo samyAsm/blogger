@@ -1,2 +1,2 @@
-# blogger
-blogging bundle
+# blog
+samyAsm blog integration package

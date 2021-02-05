@@ -1,0 +1,6 @@
+{
+  "aliases": ["samy-blog", "samyblog"],
+  "bundles": {
+    "SamyAsm\\SamyAsmBlog\\SamyBlogBundle": ["all"]
+  }
+}
